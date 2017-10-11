@@ -5,6 +5,6 @@ node_js:
 install:
   - npm i npminstall && npminstall
 script:
-  - mocha add.test.js
+  - mocha
 after_script:
   - npminstall codecov && codecov
