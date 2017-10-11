@@ -1,4 +1,4 @@
-var add = require('./add.js');
+var add = require('../add.js');
 var expect = require('chai').expect;
 
 describe('加法函数的测试', function() {
